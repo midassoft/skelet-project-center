@@ -7,7 +7,7 @@ const {app} = window.require('electron').remote;
 class DeveloperDashBoard extends Component {
 
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             user: null
         }
@@ -20,7 +20,7 @@ class DeveloperDashBoard extends Component {
     }
 
     render() {
-        if(this.state.user != null) {
+        if(this.state.user !== null) {
             return (
                 <div className="App">
                     <div className="App-header">

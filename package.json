@@ -1,7 +1,7 @@
 {
-  "name": "cra-electron",
-  "description": "CRA + Electron sitting in a tree",
-  "author": "Kitze",
+  "name": "SkeletProjectCenter",
+  "description": "Workspace for Skelet Framework developers.",
+  "author": "modassoft",
   "version": "0.2.7",
   "private": true,
   "dependencies": {

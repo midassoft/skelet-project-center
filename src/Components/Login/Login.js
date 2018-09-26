@@ -42,12 +42,12 @@ class Login extends Component {
                         <h2>Este es el Login = <span role="img" aria-label="love">😍</span></h2>
                     </div>
                     <label>Dirección de email
-                        <input type="text" placeholder="alumno@openwebinars.net" className="the_email" />
+                        <input type="text" placeholder="Username" className="" />
                     </label>
                     <label>Contraseña
-                        <input type="password" aria-describedby="@elmejoralumn#89" className="the_pass" />
+                        <input type="password" aria-describedby="" className="" />
                     </label>
-                    <button className='button expanded hollow secondary' onClick={this.logUser}>Iniciar sesión con usuario y contraseña</button>
+                    <button className='button expanded hollow secondary' onClick={this.logUser}>Entrar</button>
                 </div>
             );
         } else {

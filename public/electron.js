@@ -8,7 +8,7 @@ const isDev = require("electron-is-dev");
 let mainWindow;
 
 require("update-electron-app")({
-  repo: "kitze/react-electron-example",
+  repo: "midassoft/skelet-project-center",
   updateInterval: "1 hour"
 });
 
